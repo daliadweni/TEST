@@ -22,7 +22,7 @@
       //DOMParser
       let parser = new DOMParser();
       let doc = parser.parseFromString(html, "text/html");
-      let svgElem = doc.querySelector("table tbody");
+      let svgElem = doc.querySelector("body tbody");
       document.body.appendChild(svgElem);
     })
   }
